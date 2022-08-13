@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  margin: 0.3rem;
+  padding: 2rem;
+  background-color: rgba(241, 219, 218, 0.6);
+  color: var(--light-dark);
+  border-radius: 0.3rem;
+
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  border-bottom: 1px solid #bbb;
+}
+
+header .logo a h1 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+header .logo a {
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px var(--text-first);
+  color: var(--light-dark);
+}
+
+header .logo a img {
+  background-color: var(--text-first);
+  padding: 4px;
+  border-radius: 5px;
+}
+
+header .navBar ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+header .navBar ul li {
+  margin: 0 0.3rem;
+}
+
+header .navBar ul li a {
+  text-decoration: none;
+  color: var(--light-dark);
+}
+
+header .navBar ul li a:hover {
+  font-size: 1.3rem;
+  transition: .3s all ease-in-out;
+}

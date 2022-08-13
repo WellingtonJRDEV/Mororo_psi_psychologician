@@ -1,0 +1,17 @@
+#descricoesSobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+#descricoesSobre h3 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#descricoesSobre ul li {
+  list-style: disc;
+}

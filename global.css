@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url(./assets/styles/header.css);
+@import url(./assets/styles/main.css);
+@import url(./assets/styles/footer.css);
+@import url(./assets/styles/contatos.css);
+@import url(./assets/styles/sobre.css);
+
+:root {
+  --all-black: #000;
+  --dark: #191818;
+  --darker: #252424;
+  --light-dark: #474747;
+  --second-light-dark: #aaa;
+  --text-first: #e1bbf7;
+  --text-light: #fafafa;
+
+  --first-blue: #3434ff;
+  --second-blue: #6b6bd3;
+  --tirdh-blue: #66baff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+body {
+  background-image: url(/assets/img/bgimage.jpeg);
+  background-color: rgba(237, 237, 237, 0.5);
+}

@@ -1,0 +1,138 @@
+#mainContainer {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--light-dark);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(241, 219, 218, 0.6);
+}
+
+main .firstSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+
+  margin-top: 5rem;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 0 250px;
+}
+
+main .firstSection .descricoes h2 {
+  text-align: center;
+  margin: 1rem 0;
+  color: var(--light-dark);
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--second-light-dark);
+}
+
+main .firstSection .descricoes p {
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--light-dark);
+}
+
+.btnDefault {
+  margin-top: 1rem;
+  background-color: var(--second-blue);
+  color: var(--light-dark);
+  padding: 0.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.btnDefault:hover {
+  background-color: var(--first-blue);
+  transition: .3s all ease-in-out;
+}
+
+.btnDefault .linkDefault {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.btnDefault .linkDefault:hover {
+  transition: .3s all ease-in-out;
+}
+
+main .firstSection .photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  padding-bottom: .5rem;
+  width: 100%;
+}
+
+main .firstSection .photo img {
+  width: 250px;
+  margin: 2rem 0;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px -1px var(--light-dark);
+}
+
+main .firstSection .photo legend {
+  font-size: .8rem;
+  text-align: center;
+}
+
+main .secondSection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  padding: 2rem;
+
+  /* background-color: rgba(255, 255, 255, 0.8); */
+}
+
+main .descricoes h2 {
+  text-align: center;
+  margin: 1rem 0;
+  color: var(--light-dark);
+  padding-bottom: .5rem;
+}
+
+main .descricoes p {
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: var(--light-dark);
+  margin-bottom: 1rem;
+}
+
+main .descricoes article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+main .descricoes address {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+  font-size: .8rem;
+  text-align: left;
+
+  color: black;
+}
+
+main .secondSection .photo img {
+  width: 450px;
+  border-radius: 1rem;
+  margin: 1rem;
+}
